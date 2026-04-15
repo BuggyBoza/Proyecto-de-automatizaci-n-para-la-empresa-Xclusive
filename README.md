@@ -1,4 +1,4 @@
-## 📊 Sistema de Automatización de Ventas y Flujo de Caja
+## 📊 Sistema de Automatización de Ventas y Flujo de Caja para la empresa Xclusive (barbería) 
 
 Desarrollé una solución integral de automatización orientada a la gestión financiera operativa, enfocada en el registro, control y análisis de ingresos y egresos en tiempo real.
 
