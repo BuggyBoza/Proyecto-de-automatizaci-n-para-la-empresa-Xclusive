@@ -25,21 +25,23 @@ Se implementaron scripts en **Google Apps Script** para:
 El sistema permite:
 
 - Registro estructurado de ingresos segmentados por **productos y servicios**
-- Registro de **egresos categorizados** (operativos, administrativos, etc.)
+- Registro de **egresos categorizados**, incluyendo comisiones por colaborador
 - Consolidación en un modelo de datos tabular optimizado para análisis
 - Generación automática de métricas financieras clave (cash flow, saldo acumulado, variaciones)
 
 ### 📊 Visualización y analítica (BI)
 
-Se utilizó **Looker Studio** como herramienta de Business Intelligence para consumir los datos desde Google Sheets y transformarlos en dashboards interactivos.
+Se utilizó **Looker Studio** como herramienta de Business Intelligence para consumir los datos desde Google Sheets y transformarlos en dashboards interactivos en tiempo real.
 
 - Conexión directa a la fuente de datos (Google Sheets connector)
 - Modelado semántico para facilitar el análisis (campos calculados, métricas derivadas)
 - Visualización de indicadores clave:
+  - **Ingresos en tiempo real** segmentados por **producto y servicio**
+  - **Egresos desagregados por tipo**, con detalle de **comisiones asignadas a cada barbero**
   - Flujo de caja en diferentes granularidades (diaria, semanal, mensual)
-  - Ingresos vs egresos
+  - Comparativa ingresos vs egresos
   - Evolución de la liquidez
-- Actualización en tiempo real mediante sincronización automática con la fuente
+- Actualización automática sincronizada con la fuente de datos
 
 ### 🔗 Acceso a datos
 
@@ -52,10 +54,10 @@ Por temas de seguridad y confidencialidad, no es posible compartir el enlace del
 
 ### 🖼️ Vistas del Dashboard
 
-#### Ingresos
+#### Ingresos (Tiempo Real por Producto y Servicio)
 ![Dashboard Ingresos](./Looker_Ingresos.png)
 
-#### Egresos
+#### Egresos (Comisiones por Barbero)
 ![Dashboard Egresos](./Looker_Egresos.png)
 
 > Asegúrate de que las imágenes estén en la raíz del repositorio o ajusta la ruta según tu estructura.
@@ -65,6 +67,7 @@ Por temas de seguridad y confidencialidad, no es posible compartir el enlace del
 - Pipeline automatizado de datos financieros con mínima intervención manual
 - Reducción significativa de errores operativos en el registro y consolidación
 - Disponibilidad de información financiera en tiempo real
+- Control detallado de ingresos y comisiones por colaborador
 - Mejora en la toma de decisiones basada en datos (data-driven)
 - Escalabilidad para incorporar nuevas fuentes y métricas
 
