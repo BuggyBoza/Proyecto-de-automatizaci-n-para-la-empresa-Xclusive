@@ -1,4 +1,4 @@
-## 📊 Sistema de Automatización de Ventas, Egresos y Flujo de Caja
+## 📊 Empresa Xclusive: Sistema de Automatización de Ventas, Egresos y Flujo de Caja
 
 Desarrollé una solución end-to-end de automatización para la gestión financiera operativa, orientada a la captura, procesamiento, modelado y visualización de datos en tiempo real. El sistema integra múltiples componentes para garantizar consistencia, trazabilidad y disponibilidad de la información.
 
